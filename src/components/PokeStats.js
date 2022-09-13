@@ -20,7 +20,7 @@ export default function PokeStats(props) {
             </div>
             <motion.div
                 initial={{ width: 0 }}
-                animate={{ width: `${(props.atk / 255) * 100}%` }}
+                animate={{ width: `${(props.atk / 300) * 100}%` }}
                 className='progress-bar'
                 style={{ background: 'orange' }}>
             </motion.div>
@@ -30,7 +30,7 @@ export default function PokeStats(props) {
             </div>
             <motion.div
                 initial={{ width: 0 }}
-                animate={{ width: `${(props.def / 255) * 100}%` }}
+                animate={{ width: `${(props.def / 300) * 100}%` }}
                 className='progress-bar'
                 style={{background:'yellow'}}>
                 </motion.div>
@@ -40,7 +40,7 @@ export default function PokeStats(props) {
             </div>
             <motion.div
                 initial={{ width: 0 }}
-                animate={{ width: `${(props.spAtk / 255) * 100}%` }}
+                animate={{ width: `${(props.spAtk / 300) * 100}%` }}
                 className='progress-bar'
                 style={{background:'blue'}}>
                 </motion.div>
@@ -50,7 +50,7 @@ export default function PokeStats(props) {
             </div>
             <motion.div
                 initial={{ width: 0 }}
-                animate={{ width: `${(props.spDef / 255) * 100}%` }}
+                animate={{ width: `${(props.spDef / 300) * 100}%` }}
                 className='progress-bar'
                 style={{background:'green'}}>
                 </motion.div>
@@ -60,7 +60,7 @@ export default function PokeStats(props) {
             </div>
             <motion.div
                 initial={{ width: 0 }}
-                animate={{ width: `${(props.spd / 255) * 100}%` }}
+                animate={{ width: `${(props.spd / 300) * 100}%` }}
                 className='progress-bar'
                 style={{background:'pink'}}>
                 </motion.div>
